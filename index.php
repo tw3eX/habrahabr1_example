@@ -23,7 +23,7 @@
     var chart;
     // Конфигурируем
     var centrifuge = new Centrifuge({
-        url: 'http://socket.logistics.app/connection',
+        url: 'http://vin.tw3ex.ru/connection',
         project: 'development',
         insecure: true
     });
