@@ -1,0 +1,18 @@
+
+{
+  "project_name": "development",
+  "project_secret": "secret",
+  "project_namespaces": [
+    {
+      "name": "chart",
+      "publish": false,
+      "watch": false,
+      "presence": false,
+      "join_leave": false,
+      "anonymous" : true
+    }
+  ],
+  "project_history_size": 10,
+  "project_history_lifetime": 240,
+  "log_level": "debug"
+}

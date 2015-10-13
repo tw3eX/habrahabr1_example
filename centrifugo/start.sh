@@ -1,0 +1,1 @@
+./centrifugo --config=config.json --port=8002 --insecure --engine=redis --redis_api

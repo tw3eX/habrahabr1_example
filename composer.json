@@ -1,0 +1,28 @@
+{
+  "name": "Centrifugo test",
+  "type": "project",
+  "description": "Centrifugo test",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Valeriy Zakharov",
+      "email": "tw3exa@gmail.com",
+      "homepage": "http://nothing-extra.ru",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "predis/predis": "^1.0"
+  },
+  "autoload": {
+    "classmap": [
+      "Push",
+      "RedisCommunucate"
+    ],
+    "scripts": {
+      "post-update-cmd": [
+        "composer dump-autoload"
+      ]
+    }
+  }
+}
